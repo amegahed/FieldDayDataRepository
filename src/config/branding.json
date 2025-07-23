@@ -1,0 +1,182 @@
+{
+	"name": "Field Day",
+	"title": "Field Day",
+
+	"header": {
+		"background": "white",
+		"color": "#303030",
+		"height": 50,
+
+		"brand": {
+			"logo": {
+				"src": "images/logos/logo.png",
+				"border": "square",
+				"height": 25
+			}
+		},
+
+		"nav": {
+			"Games": {
+				"icon": "fa fa-gamepad",
+				"href": "#games"
+			}
+		},
+
+		"buttons": {
+			"Sign In": {
+				"icon": "fa fa-sign-in-alt",
+				"background": "",
+				"font": "",
+				"color": ""
+			},
+			"Sign Up": {
+				"icon": "fa fa-pencil-alt",
+				"background": "",
+				"font": "",
+				"color": ""
+			}
+		}
+	},
+
+	"welcome": {
+		"background": "linear-gradient(180deg, #03283A 22.34%, #0B4F65 47.58%, #32BBC3 73.98%, #FFA490 99.61%)",
+		"template": "welcome.tpl",
+
+		"overlay": {
+			"background_image": "images/backgrounds/stars-pattern.png"
+		},
+
+		"splash": {
+			"background": "transparent",
+			"background2": "linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.15) 100%)",
+
+			"brand": {
+				"logotype": {
+					"names": {
+						"FIELD DAY ": {
+							"color": "white",
+							"font_size": "125%"
+						},
+						"Game Data ": {
+							"color": "var(--primary-color)",
+							"font_size": "75%"
+						},
+						"Repository": {
+							"color": "var(--primary-color)",
+							"font_size": "75%"
+						}
+					},
+					"margin": "50px"
+				}
+			},
+
+			"tagline": {
+				"text": "Game Data Sharing Platform",
+				"font": "Courier",
+				"font_weight": "bold",
+				"color": "white",
+				"background": "var(--primary-color)",
+				"margin_bottom": "50px"
+			},
+
+			"description": {
+				"text": "Field Day is a team of artists, engineers, designers, researchers, writers, and game lovers.",
+				"font": "Courier",
+				"font_weight": "bold",
+				"color": "white"
+			}
+		},
+
+		"search": false,
+
+		"overlay2": {
+			"far_color": "hsl(220, 75%, 25%)",
+			"near_color": "hsla(220, 100%, 80%, 25%)"
+		}
+	},
+
+	"page": {
+		"background": "",
+		"theme": "",
+		"font": "",
+
+		"footer": {
+			"background": "#272740",
+			"color": null,
+
+			"brand": {
+				"logotype": {
+					"names": {
+						"FIELD": {
+							"color": "var(--primary-color)"
+						},
+						" DAY": {
+							"color": "white"
+						}
+					}
+				}
+			},
+
+			"tagline": {
+				"text": "Game Data Sharing Platform",
+				"font_weight": "bold",
+				"color": "white",
+				"background": "var(--primary-color)"
+			},
+
+			"info": {
+				"Explore": {
+					"icon": "fa fa-search",
+					"links": {
+						"About": {
+							"icon": "fa fa-info-circle",
+							"href": "#about"
+						}
+					}
+				},
+
+				"Policies": {
+					"icon": "fa fa-gavel",
+					"links": {
+						"Privacy": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/privacy-policy"
+						},
+						"User Data": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/user-data-policy"
+						},
+						"Terms of Use": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/terms-of-use"
+						},
+						"Code of Conduct": {
+							"icon": "fa fa-file-alt",
+							"href": "#policies/code-of-conduct"
+						}
+					}
+				},
+
+				"Help": {
+					"icon": "fa fa-question-circle",
+					"links": {
+						"Contact Us": {
+							"icon": "fa fa-envelope",
+							"href": "#contact"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"footer": {
+		"background": "var(--primary-color)",
+		"font": "",
+		"color": "white",
+		"copyright": {
+			"year": "2024",
+			"entity": "Field Day Lab"
+		}
+	}
+}
