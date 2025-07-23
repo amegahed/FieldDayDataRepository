@@ -9,11 +9,17 @@ The Field Day Game Data Repository is a cloud-based file storage, management, an
 ![Screen Shot](images/screen-shots/welcome.png)
 Welcome Screen
 
+This is the initial view that you see when viewing the web application.
+
 ![Screen Shot](images/screen-shots/games.png)
 Games
 
+This view allows you to view data from a selection of games.
+
 ![Screen Shot](images/screen-shots/files.png)
 Upload New Game Data
+
+This view allows you to review, manage, and upload data for each of the games in the repository.  You must have created an account and have signed in to the application in order to see this view.
 
 ## Live Demo
 
